@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+     // printf() displays the string inside quotation
+    char a[50];
+    int n,i;
+    printf("enter string");
+    scanf("%s",&a);
+    n=strlen(a);
+    if(a[0]=='a'|| a[n-1]=='b' && a[n-2]=='c');
+    {
+        for(i=1;i<n-2;i++)
+        {
+            if(a[i]!='b')
+            {
+                printf("string is not accepted");
+                exit(0);
+                
+            }
+        }
+        }printf("accepted");
+
+    return 0;
+}
